@@ -33,4 +33,4 @@ scrape_configs:
     metrics_path: "/actuator/prometheus"
     static_configs:
       - targets:
-        - "http://hello-eb2-dev.eu-west-1.elasticbeanstalk.com:80"
+        - "hello-eb2-dev.eu-west-1.elasticbeanstalk.com:80"
